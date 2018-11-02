@@ -1,14 +1,14 @@
-﻿spring：
-  profiles：
-    active：
+﻿spring: 
+  profiles: 
+    active: 
     - dev
 ---
-spring：
-  profiles: dev     #开发环境
-  application：
+spring: 
+  profilesdev:      #开发环境
+  application: 
     name: microservice-config-yzm-dev
 ---
-spring:
+spring: 
   profiles: test    #测试环境
-  application:
+  application: 
     name: microservice-config-yzm-test
