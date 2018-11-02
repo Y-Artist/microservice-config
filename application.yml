@@ -4,7 +4,7 @@
     - dev
 ---
 spring: 
-  profilesdev:      #开发环境
+  profilesdev: dev     #开发环境
   application: 
     name: microservice-config-yzm-dev
 ---
